@@ -6,7 +6,7 @@ module.exports = {
         center: true,
       },
       fontFamily: {
-        lato: ['Lato', 'sans - serif'],
+        lato: ['Lato', 'sans-serif'],
         amatic: ['Amatic SC', 'cursive'],
       },
     },

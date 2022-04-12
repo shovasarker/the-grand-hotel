@@ -21,6 +21,9 @@ const Menu = () => {
       <CustomLink to={'/'} onClick={handleCloseMenu}>
         Home
       </CustomLink>
+      <CustomLink to={'/rooms'} onClick={handleCloseMenu}>
+        Rooms
+      </CustomLink>
       <CustomLink to={'/about'} onClick={handleCloseMenu}>
         About
       </CustomLink>
