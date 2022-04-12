@@ -5,6 +5,10 @@ module.exports = {
       container: {
         center: true,
       },
+      fontFamily: {
+        lato: ['Lato', 'sans - serif'],
+        amatic: ['Amatic SC', 'cursive'],
+      },
     },
   },
   plugins: [],
