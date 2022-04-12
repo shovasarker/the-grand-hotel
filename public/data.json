@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "title": "One Room",
+    "description": "One bed room with one single bed.",
+    "facilities": [
+      "Only one room",
+      "One Single Bed",
+      "One attach bathroom with available hot shower",
+      "Free wifi",
+      "No freeze available",
+      "No balcony available"
+    ],
+    "price": 500,
+    "img": "https://i.ibb.co/6Wxm6Gq/single-bed-room.png",
+    "roomAvailable": 5
+  },
+  {
+    "id": 2,
+    "title": "One Room",
+    "description": "One bed room with one King size bed.",
+    "facilities": [
+      "Only one room",
+      "One King Size Bed",
+      "One attach bathroom with available hot shower",
+      "Free wifi",
+      "No freeze available",
+      "No balcony available"
+    ],
+    "price": 800,
+    "img": "https://i.ibb.co/mS3F9cb/double-bed-room.jpg",
+    "roomAvailable": 0
+  },
+  {
+    "id": 3,
+    "title": "Two Room",
+    "description": "One bed room with one king size bed and one common room",
+    "facilities": [
+      "one bed room, one common room ",
+      "One King size Bed",
+      "One attach bathroom with available hot shower",
+      "Free wifi",
+      "freeze available",
+      "balcony available"
+    ],
+    "price": 1500,
+    "img": "https://i.ibb.co/mS3F9cb/double-bed-room.jpg",
+    "roomAvailable": 2
+  },
+  {
+    "id": 4,
+    "title": "Two Room",
+    "description": "One bed room with two single bed and one common room",
+    "facilities": [
+      "One bed room, one common room",
+      "Two Single Bed",
+      "One attach bathroom with available hot shower",
+      "Free wifi",
+      "freeze available",
+      "balcony available"
+    ],
+    "price": 1500,
+    "img": "https://i.ibb.co/smmNjkD/two-single-bed-room.jpg",
+    "roomAvailable": 5
+  },
+  {
+    "id": 5,
+    "title": "Three Room",
+    "description": "Two bed room with one King size bed each and one common room.",
+    "facilities": [
+      "Two bed room,one common room",
+      "Two King size Bed",
+      "One attach bathroom with available hot shower",
+      "Free wifi",
+      "freeze available",
+      "balcony available"
+    ],
+    "price": 2500,
+    "img": "https://i.ibb.co/54Vv8HN/family-size-room.png",
+    "roomAvailable": 3
+  },
+  {
+    "id": 6,
+    "title": "Convebtional Hall",
+    "description": "One big conventional hall for big party like engagement party and one makeup room available.",
+    "facilities": [
+      "One big hall,one makeup room",
+      "Four attach bathrooms for both men and women available",
+      "Free wifi",
+      "freeze available",
+      "balcony available"
+    ],
+    "price": 40000,
+    "img": "https://i.ibb.co/Rc7YfBX/conventional-hall.png",
+    "roomAvailable": 1
+  }
+]

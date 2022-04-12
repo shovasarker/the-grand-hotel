@@ -1,9 +1,14 @@
 import React, { useContext } from 'react'
+import { useAuthState } from 'react-firebase-hooks/auth'
 import MenuContext from '../../../../../contexts/MenuContext'
 import CustomLink from '../CustomLink'
+import auth from '../../../../../firebase/firebase.init.js'
+import LinkButton from '../../../standalone/LinkButton'
+import { signOut } from 'firebase/auth'
 
 const Menu = () => {
   const { isOpen, setIsOpen } = useContext(MenuContext)
+  const [user] = useAuthState(auth)
   const handleCloseMenu = () => {
     setIsOpen(false)
   }
@@ -19,9 +24,13 @@ const Menu = () => {
       <CustomLink to={'/about'} onClick={handleCloseMenu}>
         About
       </CustomLink>
-      <CustomLink to={'/login'} onClick={handleCloseMenu}>
-        Login
-      </CustomLink>
+      {user ? (
+        <LinkButton onClick={() => signOut(auth)}>Sign Out</LinkButton>
+      ) : (
+        <CustomLink to={'/login'} onClick={handleCloseMenu}>
+          Login
+        </CustomLink>
+      )}
     </div>
   )
 }
