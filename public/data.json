@@ -34,22 +34,6 @@
   {
     "id": 3,
     "title": "Two Room",
-    "description": "One bed room with one king size bed and one common room",
-    "facilities": [
-      "one bed room, one common room ",
-      "One King size Bed",
-      "One attach bathroom with available hot shower",
-      "Free wifi",
-      "freeze available",
-      "balcony available"
-    ],
-    "price": 1500,
-    "img": "https://i.ibb.co/mS3F9cb/double-bed-room.jpg",
-    "roomAvailable": 2
-  },
-  {
-    "id": 4,
-    "title": "Two Room",
     "description": "One bed room with two single bed and one common room",
     "facilities": [
       "One bed room, one common room",
@@ -62,6 +46,22 @@
     "price": 1500,
     "img": "https://i.ibb.co/smmNjkD/two-single-bed-room.jpg",
     "roomAvailable": 5
+  },
+  {
+    "id": 4,
+    "title": "Two Room",
+    "description": "One bed room with one king size bed and one common room",
+    "facilities": [
+      "one bed room, one common room ",
+      "One King size Bed",
+      "One attach bathroom with available hot shower",
+      "Free wifi",
+      "freeze available",
+      "balcony available"
+    ],
+    "price": 1500,
+    "img": "https://i.ibb.co/mS3F9cb/double-bed-room.jpg",
+    "roomAvailable": 2
   },
   {
     "id": 5,
@@ -81,7 +81,7 @@
   },
   {
     "id": 6,
-    "title": "Convebtional Hall",
+    "title": "Conventional Hall",
     "description": "One big conventional hall for big party like engagement party and one makeup room available.",
     "facilities": [
       "One big hall,one makeup room",

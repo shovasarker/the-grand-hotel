@@ -8,13 +8,15 @@ const Button = ({
   mtAuto,
   bTop,
   mxAuto,
+  type = 'button',
 }) => {
   return (
     <button
+      type={type}
       onClick={onClick}
-      className={`block ${fullWidth ? 'w-full' : ''} px-5 py-2 ${
-        mtAuto ? 'mt-auto' : 'mt-5'
-      } ${mxAuto && 'mx-auto'} ${
+      className={`flex justify-center items-center gap-2 ${
+        fullWidth ? 'w-full' : ''
+      } px-5 py-2 ${mtAuto ? 'mt-auto' : 'mt-5'} ${mxAuto && 'mx-auto'} ${
         variant === 'outlined'
           ? 'bg-transparent text-gray-700 hover:text-white hover:bg-gray-700'
           : 'bg-gray-700 text-white hover:bg-transparent hover:text-gray-700'
